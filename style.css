@@ -150,3 +150,15 @@ body {
 .container .right-side .Name{
     color:white;
 }
+
+.container .right-side .about{
+    margin-bottom: 50px;
+}
+
+.container .right-side .about:last-child{
+    margin-bottom: 0;
+}
+.container .right-side .about .title2 {
+    color: white;
+    
+}
