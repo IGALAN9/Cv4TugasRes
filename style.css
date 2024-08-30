@@ -28,7 +28,7 @@ body {
 
 .container .left-side {
     position: relative ;
-    background: #ff9933;
+    background: #acb0b4;
     padding: 40px;
 }
 
@@ -36,18 +36,26 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding-bottom: 20px;
 }
 
 .container .left-side .profile-text{
-    font-size: 1.em;
+    font-size: 1em;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
     line-height: 1.5em;
     border-bottom: 2px solid rgba(2, 2, 2, 0.2);
+}
+
+.container .left-side .profile-text .contact-info-education .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .container .left-side .profile-text .profileimg{
@@ -94,8 +102,51 @@ body {
     font-weight: 300;
 }
 
+.container .left-side .contact-info-education {
+    margin-top: 12px;
+}
+
+.container .left-side .contact-info-education .dot {
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    background-color: #313131;
+    border-radius: 0%;
+    margin-left: 4px;
+}
+
+.container .left-side .contact-info-education .dot.active {
+    background-color: #b89258;
+    
+}
+
+.container .left-side .contact-info-education .languages{
+    margin-top: 5px;
+}
+
+.container .left-side .contact-info-education .Soft-skills {
+    margin-top: 5px;
+}
+
+.container .left-side .contact-info-education .Soft-skills .dot {
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    background-color: #313131;
+    border-radius: 0%;
+    margin-left: 4px;
+}
+
+.container .left-side .contact-info-education .Soft-skills .dot.active {
+    background-color: #b89258;
+}
+
 .container .right-side {
     position: relative ;
     background: #003147;
     padding: 40px;
+}
+
+.container .right-side .Name{
+    color:white;
 }
